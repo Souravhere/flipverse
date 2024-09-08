@@ -1,7 +1,13 @@
 {
   "compilerOptions": {
+    "jsx": "react", // Ensure this line is present
+    "allowJs": true,
+    "checkJs": false,
+    "target": "esnext",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
-  }
+  },
+  "exclude": ["node_modules"]
 }
