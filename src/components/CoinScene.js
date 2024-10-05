@@ -13,6 +13,7 @@ const Coin = ({ shouldFlip }) => {
       coinRef.current.rotation.y += 0.1; // Example flipping logic
     }
   });
+  // 3d model improted form the spline
   return (
     <mesh ref={coinRef}>
       <sphereGeometry args={[1, 32, 32]} />
